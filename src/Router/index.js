@@ -1,5 +1,5 @@
 import React, { lazy,Suspense  } from "react";
-import {BrowserRouter ,
+import {HashRouter ,
     Switch,
     Route,
     Link} from "react-router-dom"
@@ -45,7 +45,7 @@ const routes = [
 
 export default function RouteConfigExample() {
     return (
-        <BrowserRouter>
+        <HashRouter>
 
 
                     <Switch>
@@ -57,7 +57,7 @@ export default function RouteConfigExample() {
                     </Switch>
 
 
-        </BrowserRouter>
+        </HashRouter>
     );
 }
 
@@ -85,7 +85,9 @@ function TitleRouter({ routes }) {
                     {routes.map((route, i) => (
                         <RouteWithSubRoutes key={i} {...route} />
                     ))}
+                    <Link to='/CustomerManagement'>客戶列表</Link>
                 </Switch>
+
             </Title>
 
         </div>
