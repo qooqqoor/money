@@ -1,2 +1,0 @@
-(this.webpackJsonpmoney=this.webpackJsonpmoney||[]).push([[8],{132:function(e,n,t){"use strict";t.r(n);var a=t(0),l=t.n(a);n.default=function(e){e.children;return l.a.createElement(l.a.Fragment,null,l.a.createElement("h1",null,"Table"))}}}]);
-//# sourceMappingURL=8.23628ece.chunk.js.map
