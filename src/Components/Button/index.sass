@@ -1,0 +1,23 @@
+=size($w,$h:$w,$r:0)
+  width: $w
+  height: $h
+  border-radius: $r
+
+=flex($j:center,$a:center)
+  display: flex
+  justify-content: $j
+  align-items: $a
+
+=abpos($l:initial,$t:initial)
+  position: absolute
+  left: $l
+  top: $t
+
+.MuiButton-contained
+  //background-color: #444
+  white-space: nowrap
+  color: #fff
+  font-family: '微軟正黑體 Bold', '微軟正黑體 Regular', '微軟正黑體', sans-serif
+
+  &.default
+    background-color: rgba(22, 155, 213, 1)

@@ -1,0 +1,53 @@
+=size($w,$h:$w,$r:0)
+  width: $w
+  height: $h
+  border-radius: $r
+
+=flex($j:center,$a:center)
+  display: flex
+  justify-content: $j
+  align-items: $a
+
+=abpos($l:initial,$t:initial)
+  position: absolute
+  left: $l
+  top: $t
+
+=bord($c:#000)
+  border: solid $c
+
+
+.Checklist
+
+
+  .ChecklistTitle
+    +size(100%,auto)
+
+
+    .ChecklistAdd
+
+      +flex(flex-end)
+      //padding-right: 7%
+      @keyframes iconFloatRight
+        0%
+          transform: translateX(100%)
+
+        100%
+          transform: translateX(0%)
+
+      .iconFloat
+        transform: translateX(0%)
+        animation: iconFloatRight 0.5s  1 both ease-in-out
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,115 @@
+=size($w,$h:$w,$r:0)
+  width: $w
+  height: $h
+  border-radius: $r
+
+=flex($j:center,$a:center)
+  display: flex
+  justify-content: $j
+  align-items: $a
+
+=abpos($l:initial,$t:initial)
+  position: absolute
+  left: $l
+  top: $t
+
+=bord($c:#000)
+  border: solid $c
+
+.searchForm
+  //+flex(space-between)
+  //flex-wrap: wrap
+
+  >.searchFormText
+    //+bord
+    justify-content: flex-start
+
+    >span:first-child
+      //flex: 1
+
+
+      font-weight: 700
+      font-size: 19px
+      white-space: nowrap
+      padding: 15px 10px 15px 15px
+
+    .searchFormText-mobile
+      overflow: hidden
+
+      @keyframes widthing
+        0%
+          opacity: 0
+          width: 0
+
+        25%
+          opacity: 1
+        100%
+          width: 100%
+      @keyframes cleaning
+        0%
+          opacity: 0
+          top: 0
+
+        50%
+
+
+        100%
+          opacity: 1
+          top: 50%
+
+
+      input
+        padding-right: 28px
+        animation: widthing 0.3s 1 both ease-in-out
+
+
+      .searchFormText-icon
+        position: absolute
+        right: 5px
+        top: 50%
+        transform: translateY(-50%)
+        border-radius: 50%
+        cursor: pointer
+        animation: cleaning 0.2s 0.3s 1 both ease-in-out
+
+
+        &:hover
+          background-color: rgba(100,100,100,0.2)
+
+        &:active
+          background-color: rgba(100,100,100,0.4)
+
+
+
+
+
+      //+bord
+
+
+
+
+
+  >div
+    //flex: 2
+    +flex(space-around)
+
+    input
+      width: 100%
+      padding: 10px 10px
+      margin-right: 5px
+      border: solid rgba(50,50,50,1) 1px
+      transition: 0s
+      border-radius: 5px
+
+
+
+
+      &:focus
+        outline: none
+        border: solid rgba(100,140,180,1) 1.5px
+        box-shadow: 0 0 3px rgba(120,140,200,1)
+
+    button
+
+
+

@@ -1,0 +1,55 @@
+=size($w,$h:$w,$r:0)
+  width: $w
+  height: $h
+  border-radius: $r
+
+=flex($j:center,$a:center)
+  display: flex
+  justify-content: $j
+  align-items: $a
+
+=abpos($l:initial,$t:initial)
+  position: absolute
+  left: $l
+  top: $t
+
+=bord($c:#000)
+  border: solid $c
+
+
+.Checklist
+  .ChecklistBody
+
+
+
+    .ChecklistBody-Table
+      +size(100%)
+
+      tr
+        +size(100%)
+        flex: 1
+        border-bottom: solid 1px rgba(190,190,190,0.5)
+
+
+
+      td
+
+        white-space: nowrap
+        text-align: center
+
+
+      thead
+        tr
+          &:first-child
+            font-weight: 700
+            font-size: 15px
+            border-bottom: solid 1px rgba(120,120,120,0.7)
+
+            td
+              padding: 1% 0
+
+
+
+
+
+

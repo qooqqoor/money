@@ -1,0 +1,55 @@
+=size($w,$h:$w,$r:0)
+  width: $w
+  height: $h
+  border-radius: $r
+
+=flex($j:center,$a:center)
+  display: flex
+  justify-content: $j
+  align-items: $a
+
+=abpos($l:initial,$t:initial)
+  position: absolute
+  left: $l
+  top: $t
+
+=bord($c:#000)
+  border: solid $c
+
+
+.Checklist
+  .ChecklistBody
+    +size(100%)
+    margin-top: 3%
+
+    .ChecklistBody-Boxs
+
+      +bord
+
+
+      .ChecklistBody-Box
+        +flex
+
+        .ChecklistBody-Box-data
+          +size(90%)
+          +flex(space-between,flex-start)
+          flex-direction: column
+          font-size: 13px
+
+
+          >div
+            +flex(space-between,flex-start)
+            +size(100%)
+
+            span
+              flex: 1
+
+        .ChecklistBody-Box-action
+          +flex
+          flex-direction: column
+
+
+
+
+
+

@@ -1,0 +1,27 @@
+=size($w,$h:$w,$r:0)
+  width: $w
+  height: $h
+  border-radius: $r
+
+=flex($j:center,$a:center)
+  display: flex
+  justify-content: $j
+  align-items: $a
+
+=abpos($l:initial,$t:initial)
+  position: absolute
+  left: $l
+  top: $t
+
+=bord($c:#000)
+  border: solid $c
+
+
+.Checklist
+  +size(100%)
+  +flex
+  flex-direction: column
+  //+bord
+
+  .ChecklistBody-Boxs
+
