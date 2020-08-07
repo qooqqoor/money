@@ -1,14 +1,14 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b3bd164a8fb2afee8fd8c0ac8a3df4e2",
+    "revision": "c7805e5fb7f4a61d754d385c8fc3da3c",
     "url": "/money/index.html"
   },
   {
-    "revision": "ad240326f1f9d20da814",
+    "revision": "4dd6c8afbbc7bc2518cb",
     "url": "/money/static/css/4.0e7c17ab.chunk.css"
   },
   {
-    "revision": "8cc759b61e89fbb7f437",
+    "revision": "633bb3e7fc6b8089fb32",
     "url": "/money/static/css/main.7e284f35.chunk.css"
   },
   {
@@ -20,16 +20,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/money/static/js/0.dc0b8e06.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "39d6563ee8c5851f143b",
-    "url": "/money/static/js/3.6833cef6.chunk.js"
+    "revision": "14991269e13b091219b8",
+    "url": "/money/static/js/3.1d1151ed.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/money/static/js/3.6833cef6.chunk.js.LICENSE.txt"
+    "url": "/money/static/js/3.1d1151ed.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ad240326f1f9d20da814",
-    "url": "/money/static/js/4.1e0f1f75.chunk.js"
+    "revision": "4dd6c8afbbc7bc2518cb",
+    "url": "/money/static/js/4.f4ed4fec.chunk.js"
   },
   {
     "revision": "429f4fa2442ecc8ea702",
@@ -48,15 +48,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/money/static/js/8.23628ece.chunk.js"
   },
   {
-    "revision": "3869e0d8bdf3abaf5e14",
-    "url": "/money/static/js/9.221edc30.chunk.js"
+    "revision": "69504b833c9da8530b51",
+    "url": "/money/static/js/9.8724f1ca.chunk.js"
   },
   {
-    "revision": "8cc759b61e89fbb7f437",
-    "url": "/money/static/js/main.3c1b2dfa.chunk.js"
+    "revision": "633bb3e7fc6b8089fb32",
+    "url": "/money/static/js/main.9f55a741.chunk.js"
   },
   {
-    "revision": "88152cb487457bf49423",
-    "url": "/money/static/js/runtime-main.bde1d9ca.js"
+    "revision": "ef9c2d792892a1246922",
+    "url": "/money/static/js/runtime-main.b7f20cc5.js"
   }
 ]);
